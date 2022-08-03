@@ -2,14 +2,14 @@
 	"name": "tr_pocess_formula1_data",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipeline": {
 			"pipelineReference": {
 				"referenceName": "pl_process_formula1_data",
 				"type": "PipelineReference"
 			},
 			"parameters": {
-				"p_windows_end_date": "@trigger.outputs.windowEndTime"
+				"p_windows_end_date": "@trigger().outputs.windowEndTime"
 			}
 		},
 		"type": "TumblingWindowTrigger",
