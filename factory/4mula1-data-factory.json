@@ -1,0 +1,9 @@
+{
+	"name": "4mula1-data-factory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea596db3-4000-4ab6-b8e2-7708bbd215e0",
+		"tenantId": "ca9a8b8c-3ea3-4799-a43e-5510398e7a3b"
+	}
+}
